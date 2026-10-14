@@ -1,0 +1,12 @@
+{
+  "name": "dogear",
+  "description": "Dogear: every new Claude Code session opens where the last one stopped.",
+  "owner": { "name": "giveitlegs" },
+  "plugins": [
+    {
+      "name": "dogear",
+      "source": "./",
+      "description": "Every new Claude Code session opens where the last one stopped."
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "dogear",
+  "version": "1.0.0",
+  "description": "Every new Claude Code session opens where the last one stopped. Dogear records what was asked, the plan, what changed, and how it ended, then hands that to the next session automatically. Zero config.",
+  "author": { "name": "giveitlegs" },
+  "license": "MIT",
+  "homepage": "https://github.com/giveitlegs/dogear",
+  "repository": "https://github.com/giveitlegs/dogear",
+  "keywords": ["memory", "handoff", "context", "continuity", "sessions", "hooks"]
+}

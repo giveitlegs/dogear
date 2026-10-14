@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="560" viewBox="0 0 900 560" role="img" aria-labelledby="t d">
+<title id="t">Dogear demo</title>
+<desc id="d">Replay of two real Claude Code sessions: the first adds a discount function and stops before free shipping; a brand-new second session opens with a Dogear note and, asked where we left off, answers with what was done, the open design choice, the uncommitted files and the next step.</desc>
+<style>
+text{font:14.5px ui-monospace,SFMono-Regular,Menlo,Consolas,"DejaVu Sans Mono",monospace;fill:#e6e6e6;white-space:pre}
+text,rect.pbox,.intro,.outro{animation-duration:22.0s;animation-iteration-count:infinite;animation-timing-function:linear;opacity:0}
+.prompt{fill:#fff} .out{fill:#8a8a93} .add{fill:#59c37a} .del{fill:#f0716b} .text{fill:#e6e6e6}
+.b{font-weight:700;fill:#fff} .bul{fill:#5fb3f9} .ok{fill:#59c37a}
+.proofh{fill:#7ee0c8;font-weight:700} .sep{fill:#6a6a73}
+.pbox{fill:#0f2a25;stroke:#3fb89c}
+.sans{font-family:-apple-system,"Segoe UI",Helvetica,Arial,"DejaVu Sans",sans-serif}
+.intro{animation-name:intro} .outro{animation-name:outro}
+@media (prefers-reduced-motion:reduce){text,rect.pbox,.intro{animation:none;opacity:1} .intro,.outro{display:none}}
+@keyframes a0{0%,9.955%{opacity:0}11.136%,80.000%{opacity:1}81.818%,100%{opacity:0}}
+@keyframes a1{0%,9.955%{opacity:0}11.136%,80.000%{opacity:1}81.818%,100%{opacity:0}}
+@keyframes a2{0%,9.955%{opacity:0}11.136%,80.000%{opacity:1}81.818%,100%{opacity:0}}
+@keyframes a4{0%,15.409%{opacity:0}16.591%,80.000%{opacity:1}81.818%,100%{opacity:0}}
+@keyframes a5{0%,17.682%{opacity:0}18.864%,80.000%{opacity:1}81.818%,100%{opacity:0}}
+@keyframes a6{0%,21.773%{opacity:0}22.955%,80.000%{opacity:1}81.818%,100%{opacity:0}}
+@keyframes a7{0%,21.773%{opacity:0}22.955%,80.000%{opacity:1}81.818%,100%{opacity:0}}
+@keyframes a9{0%,29.045%{opacity:0}30.227%,80.000%{opacity:1}81.818%,100%{opacity:0}}
+@keyframes a11{0%,34.500%{opacity:0}35.682%,80.000%{opacity:1}81.818%,100%{opacity:0}}
+@keyframes a14{0%,40.864%{opacity:0}42.045%,80.000%{opacity:1}81.818%,100%{opacity:0}}
+@keyframes a16{0%,48.136%{opacity:0}49.318%,80.000%{opacity:1}81.818%,100%{opacity:0}}
+@keyframes a17{0%,48.136%{opacity:0}49.318%,80.000%{opacity:1}81.818%,100%{opacity:0}}
+@keyframes a18{0%,52.682%{opacity:0}53.864%,80.000%{opacity:1}81.818%,100%{opacity:0}}
+@keyframes a19{0%,57.227%{opacity:0}58.409%,80.000%{opacity:1}81.818%,100%{opacity:0}}
+@keyframes box{0%,34.500%{opacity:0}35.682%,80.000%{opacity:1}81.818%,100%{opacity:0}}
+@keyframes intro{0%,7.273%{opacity:1}9.545%,100%{opacity:0}}
+@keyframes outro{0%,80.000%{opacity:0}82.727%,98.636%{opacity:1}100%{opacity:0}}
+</style>
+<rect width="900" height="560" rx="14" fill="#17171a" stroke="#2a2a2e"/>
+<path d="M0 14a14 14 0 0 1 14-14h872a14 14 0 0 1 14 14v22H0z" fill="#1f1f23"/>
+<circle cx="22" cy="18" r="6" fill="#ff5f57"/><circle cx="42" cy="18" r="6" fill="#febc2e"/><circle cx="62" cy="18" r="6" fill="#28c840"/>
+<text x="84" y="23" style="fill:#8a8a93;font-size:13px;opacity:1;animation:none">~/cart — claude</text>
+<rect x="44" y="256" width="812" height="33" rx="8" class="pbox" style="animation-name:box"/>
+<text x="44" y="76" class="sep" style="animation-name:a0">Session 1</text>
+<text x="44" y="97" class="prompt" style="animation-name:a1">&gt; Add a discount(code) function to src/cart.js supporting SAVE10 for 10% off,</text>
+<text x="44" y="118" class="prompt" style="animation-name:a2">  with a test. Then stop. Free shipping over $50 comes in a later session.</text>
+<text x="44" y="149" class="tool" style="animation-name:a4"><tspan class="bul">⏺</tspan> <tspan class="b">Bash</tspan>(npm test 2&gt;&amp;1 | tail -20)</text>
+<text x="44" y="170" class="out" style="animation-name:a5">  ⎿  # tests 2   # pass 2   # fail 0</text>
+<text x="44" y="191" class="done" style="animation-name:a6"><tspan class="ok">⏺</tspan> Added discount(code): SAVE10 returns 0.1, other codes 0. Both tests pass.</text>
+<text x="44" y="212" class="text" style="animation-name:a7">  I stopped before free shipping and haven&#x27;t committed anything.</text>
+<text x="44" y="243" class="sep" style="animation-name:a9">── session ends ─────────────────────────────── a brand-new session ──</text>
+<text x="60" y="274" class="proofh" style="animation-name:a11">📑 Dogear: picked up your last session</text>
+<text x="44" y="315" class="prompt" style="animation-name:a14">&gt; Where did we leave off?</text>
+<text x="44" y="346" class="done" style="animation-name:a16"><tspan class="ok">⏺</tspan> Done: on checkout-v2, discount(code) in src/cart.js. SAVE10 returns 0.1.</text>
+<text x="44" y="367" class="text" style="animation-name:a17">  npm test passed.</text>
+<text x="44" y="388" class="done" style="animation-name:a18"><tspan class="ok">⏺</tspan> Open choice: it returns a rate, not a discounted price. Say if you want the total.</text>
+<text x="44" y="409" class="done" style="animation-name:a19"><tspan class="ok">⏺</tspan> Next: both files are uncommitted, and free shipping over $50 is up.</text>
+<g class="intro"><rect y="36" width="900" height="524" fill="#17171a"/>
+<text x="450.0" y="280.0" text-anchor="middle" class="sans" style="font-size:60px;font-weight:700;fill:#fff;opacity:1;animation:none">Dogear</text>
+<text x="450.0" y="324.0" text-anchor="middle" class="sans" style="font-size:20px;fill:#c8c8cf;opacity:1;animation:none">A Claude Code plugin · replay of two real sessions</text></g>
+<g class="outro"><rect y="36" width="900" height="524" fill="#17171a"/>
+<text x="450.0" y="270.0" text-anchor="middle" class="sans" style="font-size:60px;font-weight:700;fill:#fff;opacity:1;animation:none">Dogear</text>
+<text x="450.0" y="314.0" text-anchor="middle" class="sans" style="font-size:21px;fill:#c8c8cf;opacity:1;animation:none">Every new session opens where the last one stopped.</text>
+<text x="450.0" y="350.0" text-anchor="middle" style="font-size:14px;fill:#8a8a93;opacity:1;animation:none">/plugin marketplace add giveitlegs/dogear</text></g>
+</svg>
